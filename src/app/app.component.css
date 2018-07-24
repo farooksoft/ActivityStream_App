@@ -1,0 +1,41 @@
+.heading{
+    border-style: solid;
+    border-color: cadetblue;
+    font-size: 40px;
+    color: brown;
+    font-stretch: expanded;
+    text-align: center;
+    background-color:burlywood;
+}
+*{
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color:darkred;
+}
+.column{
+    float: left;
+    padding: 10px;
+    height: 520px;
+}
+.column.left{
+    border-style: ridge;
+    border-color: cadetblue;
+    float: left;
+    width: 15%;
+    background-color:burlywood;
+}
+.column.right{
+    border-style: solid;
+    border-color: cadetblue;
+    float: right;
+    width: 15%;
+    background-color:burlywood;
+}
+.column.middle{
+    border-style: solid;
+    border-color: cadetblue;
+    float: left;
+    width: 70%;
+    background-color:beige;
+}

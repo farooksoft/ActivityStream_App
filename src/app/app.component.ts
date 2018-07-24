@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  heading = 'Activity Stream';
+    
+    currentSelected: object;
+
+    onSelect(data) {
+      console.log(data.value);
+      this.currentSelected = data;
+      console.log('User in parent ' , this.currentSelected);
+
+    }
 }

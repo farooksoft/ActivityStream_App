@@ -1,0 +1,13 @@
+<div class="heading">Users</div>
+
+<div class="column">
+	<div class="users">
+		<ul>
+			<li *ngFor="let user of users"
+				(click)="selectUser(user.username)"> {{user.username}}</li>
+		</ul>
+	</div>
+</div>
+
+
+

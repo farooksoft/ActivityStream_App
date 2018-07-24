@@ -1,0 +1,20 @@
+<div class="heading">Messages</div>
+
+<div class="column">
+	<div class="mess">
+
+		<ul>
+			<li *ngFor="let messa of messages">
+				<div *ngIf="type == 'user'">{{messa.senderName}} to
+					{{messa.receiverId}}</div>
+				<div>{{messa.message}}</div>
+			</li>
+
+		</ul>
+		{{message}}<br> <input type="text" [(ngModel)]='message'
+			placeholder="Enter your message!!!">
+
+		<button (click)="onClick(message, type)">Send</button>
+	</div>
+
+</div>

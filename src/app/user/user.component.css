@@ -1,0 +1,35 @@
+.heading{
+    text-align:center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: maroon;
+}
+
+.column{
+    float: left;
+    padding: 5px;
+    height: 520px;
+}
+
+.clearfix::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.user ul{
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+}
+
+.users li {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f3f5f7;
+    color: blue;
+}
+
+.users li:hover{
+    background-color: blanchedalmond;
+}
